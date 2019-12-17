@@ -69,3 +69,7 @@ print(remainder)
 first = 10
 second = 15
 print(first + second)
+
+first1 = '100'
+second1 = '200'
+print(first1 + second1)
