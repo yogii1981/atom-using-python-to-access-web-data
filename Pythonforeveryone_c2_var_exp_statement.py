@@ -115,5 +115,5 @@ for word in words:
 # that uses 'input' to prompt a user
 # for their name and then welcome them
 
-gm = input("Enter your name : ") 
-print(gm)
+name = input('Enter your name: ')
+print("Welcome", name)
