@@ -46,6 +46,12 @@ y= x + 17
 print(y)
 
 #exercise 1
-5 
+5
 x = 5
 x + 1
+
+#order of operations
+#PEDMADS
+
+y = (4 + 3 ** 2 + 4 - 2 * 6 / 2)
+print (y)
