@@ -26,3 +26,14 @@ elif x > y  :
     print("x and y are equal")
 else :
     print("y is greater than x")
+
+
+choice = "d"
+if choice == "a" :
+    print("Excellent grades")
+elif choice == "b" :
+    print("Good grades")
+elif choice == "c" :
+    print("nice grades")
+else :
+    print("poor grades")
