@@ -111,7 +111,7 @@ for word in words:
 
 #debugging
 
-#exercise 2 write a program
+#exercise 2: write a program
 # that uses 'input' to prompt a user
 # for their name and then welcome them
 
@@ -127,3 +127,17 @@ Enter_hours = input("Enter your hours: ")
 Enter_rate = input("Enter rate: ")
 pay = (int(Enter_hours) * int(Enter_rate))
 print(pay)
+
+#Exercise 4: Assume that we execute the following assignement
+
+width = 17
+height = 12.0
+
+print(width // 2)
+print(type(width // 2))
+
+print(width // 2.0)
+print(type(width // 2.0))
+
+print(height // 3)
+print(type(height// 3))
