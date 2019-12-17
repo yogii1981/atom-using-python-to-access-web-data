@@ -84,3 +84,22 @@ print(name)
 
 prompt = 'What ....is airspeed velocity of unladen swallow? \n '
 speed = input(prompt)
+
+int(speed)
+int(speed) + 5
+
+#comments
+#anything typed after # is considered comments
+v = 5 # assiged velocity v is 5 mter/ second
+
+
+a = 10
+b = 20
+c = a * b
+print(c)
+
+p = 100 # in dollars
+r = 4 # 4 % rate
+t = 12 # number of years = 12
+SI = (p * r * t ) /100
+print(SI)
