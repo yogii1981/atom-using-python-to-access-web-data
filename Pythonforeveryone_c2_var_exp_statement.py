@@ -108,3 +108,12 @@ print(SI)
 words = "this is a sentence"
 for word in words:
     print(word)
+
+#debugging
+
+#exercise 2 write a program
+# that uses 'input' to prompt a user
+# for their name and then welcome them
+
+gm = input("Enter your name : ") 
+print(gm)
