@@ -33,3 +33,6 @@ print (a)
 
 minute = 59
 print(float(minute/60))
+
+b = 'test1'
+print(b)
