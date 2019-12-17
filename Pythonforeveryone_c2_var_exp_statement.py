@@ -198,3 +198,11 @@ if x % 2 == 0 :
     print("x is even")
 else :
     print ("x is odd")
+
+#Chained conditionals
+x = 6
+y = 8
+if x > y :
+    print("x is greater than y")
+else :
+    print("y is greater than x")
