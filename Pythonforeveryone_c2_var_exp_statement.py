@@ -73,3 +73,14 @@ print(first + second)
 first1 = '100'
 second1 = '200'
 print(first1 + second1)
+
+
+#asking for the input
+input = input()
+print(input)
+
+name = input('What is your name? \n') #newline
+print(name)
+
+prompt = 'What ....is airspeed velocity of unladen swallow? \n '
+speed = input(prompt)
