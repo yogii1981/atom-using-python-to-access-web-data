@@ -149,3 +149,38 @@ print(type(height// 3))
 celcius_temp =  input("Enter a temperature: ")
 fahrenheit_temp = (float(celcius_temp) * (9/5)) + 32
 print(fahrenheit_temp,"F")
+
+#Conditional execution and Boolean expression
+
+5 == 5
+print(5 == 5)
+
+5 == 6
+print(5 == 6)
+
+type(True)
+
+type(False)
+
+x = 3
+y =2
+x != y
+
+x > y
+
+x >= y
+
+x is y
+
+x is not y
+
+x <= y
+
+# Logical operators
+x = 9
+print(x > 0 and x < 10)
+
+# Conditional executuion
+x = 10
+if x > 0 :
+    print('x is positive')
