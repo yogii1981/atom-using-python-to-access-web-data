@@ -117,3 +117,13 @@ for word in words:
 
 name = input('Enter your name: ')
 print("Welcome", name)
+
+
+#exercise 3 : Write a program to propmpt
+# the user for hours and rate per hours
+# to computer gross pay
+
+Enter_hours = input("Enter your hours: ")
+Enter_rate = input("Enter rate: ")
+pay = (int(Enter_hours) * int(Enter_rate))
+print(pay)
