@@ -36,3 +36,16 @@ print(float(minute/60))
 
 b = 'test1'
 print(b)
+
+minute = 59
+minute // 60
+
+#expression
+x = 2
+y= x + 17
+print(y)
+
+#exercise 1
+5 
+x = 5
+x + 1
