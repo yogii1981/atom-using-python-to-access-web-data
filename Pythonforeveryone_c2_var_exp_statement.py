@@ -55,3 +55,17 @@ x + 1
 
 y = (4 + 3 ** 2 + 4 - 2 * 6 / 2)
 print (y)
+
+#Modulus operator
+
+quotient = 7 // 3
+print(quotient)
+
+remainder = 7 % 3
+print(remainder)
+
+#string operations
+
+first = 10
+second = 15
+print(first + second)
