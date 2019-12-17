@@ -103,3 +103,8 @@ r = 4 # 4 % rate
 t = 12 # number of years = 12
 SI = (p * r * t ) /100
 print(SI)
+
+
+words = "this is a sentence"
+for word in words:
+    print(word)
