@@ -141,3 +141,11 @@ print(type(width // 2.0))
 
 print(height // 3)
 print(type(height// 3))
+
+# exercise 5: wite a program which the user for a celcius
+# tempatture , convert the temperature to fahrenheit and print
+# out the converted temperature
+
+celcius_temp =  input("Enter a temperature: ")
+fahrenheit_temp = (float(celcius_temp) * (9/5)) + 32
+print(fahrenheit_temp,"F")
