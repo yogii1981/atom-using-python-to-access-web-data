@@ -181,6 +181,20 @@ x = 9
 print(x > 0 and x < 10)
 
 # Conditional executuion
+# IF statement
 x = 10
 if x > 0 :
     print('x is positive')
+if x < 0 :
+    pass
+
+x = 3
+if x < 10 :
+    print('Small')
+
+# IF and Else statement
+x = 10
+if x % 2 == 0 :
+    print("x is even")
+else :
+    print ("x is odd")
