@@ -155,7 +155,7 @@ try:
 except:
     print('bad score')
 
-
+####################################################
 score = 0.0                                # Initialize variables
 grade = ""
 
@@ -181,6 +181,8 @@ else:
     grade = 'Bad score'
 
 print(grade)
+
+#################################################
 
 score = float(input('Enter score:') )
 try:
