@@ -59,3 +59,9 @@ if 0 < x:
 x = 9
 if 0 < x and x > 10:
     print('x is positive single digit number.')
+
+#catching exception using "Try and Except"
+inp1 = input('Enter Fahrenheit Temp: ')
+fahr = float(inp1)
+cel = (fahr - 32.0) * 5.0 /9.0
+print(cel)
