@@ -37,3 +37,14 @@ elif choice == "c" :
     print("nice grades")
 else :
     print("poor grades")
+
+#nested conditionals
+x = 10
+y = 20
+if x == y:
+    print('x and y are equal')
+else:
+    if x < y:
+        print('x is less than y')
+    else:
+        print('y is greater than x')
