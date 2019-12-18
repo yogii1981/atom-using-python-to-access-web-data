@@ -48,3 +48,14 @@ else:
         print('x is less than y')
     else:
         print('y is greater than x')
+
+#another example of nested condition
+
+x = 9
+if 0 < x:
+    if x < 10:
+        print('x is positive single digit number.')
+
+x = 9
+if 0 < x and x > 10:
+    print('x is positive single digit number.')
