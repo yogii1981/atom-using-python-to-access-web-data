@@ -102,3 +102,12 @@ if worked_hours > 40:
 else:
     pay = hourly_rate * worked_hours
     print(pay)
+
+hourly_rate = 10
+worked_hours = 45
+if worked_hours > 40:
+    pay = ((hourly_rate * 40) + (hourly_rate * 1.5) * (worked_hours - 40))
+    print(pay)
+else:
+    pay = hourly_rate * worked_hours
+    print(pay)
