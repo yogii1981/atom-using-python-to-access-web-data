@@ -89,3 +89,16 @@ x = 6
 y = 0
 z = ( x >= 2 and y !=0  and (x/y) > 2)
 print(z)
+
+#exercise 1: rewrite your pay computation
+# to give the employee 1.5 time the hour rate for hours worked
+# above 40 hours
+
+hourly_rate = 50
+worked_hours = 44
+if worked_hours > 40:
+    pay = ((hourly_rate * 40) + (hourly_rate * 1.5) * (worked_hours - 40))
+    print(pay)
+else:
+    pay = hourly_rate * worked_hours
+    print(pay)
