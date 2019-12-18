@@ -65,3 +65,11 @@ inp1 = input('Enter Fahrenheit Temp: ')
 fahr = float(inp1)
 cel = (fahr - 32.0) * 5.0 /9.0
 print(cel)
+
+inp1 = input('Enter Fahrenheit Temp: ')
+try:
+    fahr = float(inp1)
+    cel = (fahr - 32.0) * 5.0 /9.0
+    print(cel)
+except:
+    print('please enter number')
