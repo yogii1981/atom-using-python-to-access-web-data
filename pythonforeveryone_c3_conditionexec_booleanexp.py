@@ -84,3 +84,8 @@ x = 1
 y = 0
 z = ( x >= 2 and y !=0  and (x/y) > 2)
 print(z)
+
+x = 6
+y = 0
+z = ( x >= 2 and y !=0  and (x/y) > 2)
+print(z)
