@@ -111,3 +111,17 @@ if worked_hours > 40:
 else:
     pay = hourly_rate * worked_hours
     print(pay)
+
+#exercise 2: Rewrite your pay program using try and except
+# so that your program can gandles non-numeric input
+# gracefully by printing a message and exit the program.
+
+rate1 = input('Enter a hour rate:')
+hours1 = input('Enter number of hours worked in a week: ')
+try:
+    hrate = float(rate1)
+    whours = float(hours1)
+    pay = hrate * whours
+    print(pay)
+except:
+    print('Error, please enter numeric input')
