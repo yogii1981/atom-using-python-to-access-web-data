@@ -125,3 +125,32 @@ try:
     print(pay)
 except:
     print('Error, please enter numeric input')
+
+# Exercise 3: write a program to prompt for a score between 0.0 and
+# 1.0. If the score is out of range , print an error message
+# IF the score is between 0.0 and 1.0, print a grade usingt he following table:
+# Score  grade
+# >= 0.9  A
+# >= 0.8  B
+# >= 0.7  C
+# >= 0.6  D
+# < 0.6   F
+
+score = input('Enter the score:')
+try:
+    if score >= 0.9 and score < 1.0:
+        print("Grade is A")
+    else:
+        if score >= 0.8 and score < 0.9:
+            print("Grade is B")
+        else:
+            if score >= 0.7 and score < 0.8:
+                print("Grade is C")
+            else:
+                if score >=0.6 and score < 0.7:
+                    print("Grade is D")
+                else:
+                    if score <  0.6 and score <=0.0:
+                        print("Grade is F")
+except:
+    print('bad score')
