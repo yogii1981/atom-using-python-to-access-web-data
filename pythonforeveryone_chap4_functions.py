@@ -80,4 +80,10 @@ print_lyrics()
 def repeat_lyrics():
     print_lyrics()
     print_lyrics()
-repeat_lyrics
+def print_lyrics():
+        print("I'm a lumbejack, and I'm okay.")
+        print("I work all day and I sleep all night")
+repeat_lyrics()
+
+#parameters and arguement
+# math.sin()  anything writtten in the bracket is the arguement passed to sin
