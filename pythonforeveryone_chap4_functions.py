@@ -14,4 +14,15 @@ int(-2.3)
 
 int('Hello')  #valueError: invalid internal
 
-float(32)   #converting to float 
+float(32)   #converting to float
+print(float(32))
+
+print(str(32))  #convert its arguement to a string
+
+#random numbers
+#write a program to generate random numbers between 0.0 and 1.0
+import random
+
+for i in random(10):
+    x = random.random()
+    print(x)
