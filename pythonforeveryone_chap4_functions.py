@@ -63,7 +63,21 @@ import math
 print(math.sqrt(2)/ 2.0)
 
 # add new functions
-
+# def ia key word which which defines
+# new function and name of the function
+# is print_lyrics
 def print_lyrics():
     print("I'm a lumbejack, and I'm okay.")
     print("I work all day and I sleep all night")
+
+print_lyrics()
+
+
+#once you have defined the function ,
+# you can use it inside another functions
+# and we call it as repeat_lyrics
+
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+repeat_lyrics
