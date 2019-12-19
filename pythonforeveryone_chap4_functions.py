@@ -8,5 +8,8 @@ print(len("Hello World"))  #length of hello World
 int('32')
 int('Hello')
 
+# type conversion functions
 int(3.999)
 int(-2.3)
+
+int('Hello')  #valueError: invalid internal
