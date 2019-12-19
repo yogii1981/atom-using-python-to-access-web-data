@@ -59,5 +59,11 @@ degrees = 45
 radians = degrees / 360.0 * 2 * math.pi
 print(math.sin(radians))
 
-import math 
+import math
 print(math.sqrt(2)/ 2.0)
+
+# add new functions
+
+def print_lyrics():
+    print("I'm a lumbejack, and I'm okay.")
+    print("I work all day and I sleep all night")
