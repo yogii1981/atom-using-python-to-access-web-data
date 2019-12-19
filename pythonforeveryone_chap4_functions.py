@@ -40,8 +40,24 @@ greetings = ["Namaste", "Ola", "Hello", "Wie gehts"]
 value = random.choice(greetings)
 print(value + ' , Monica!')
 
-#to choose any element from a squence at randon , 
+#to choose any element from a squence at randon ,
 # you can use choice
 import random
 t = [1,2,3]
 random.choice(t)
+
+# Math functions
+import math
+print(math)
+
+import math
+radians = 0.7
+height = math.sin(-radians)
+
+import math
+degrees = 45
+radians = degrees / 360.0 * 2 * math.pi
+print(math.sin(radians))
+
+import math 
+print(math.sqrt(2)/ 2.0)
