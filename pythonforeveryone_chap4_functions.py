@@ -13,3 +13,5 @@ int(3.999)
 int(-2.3)
 
 int('Hello')  #valueError: invalid internal
+
+float(32)   #converting to float 
