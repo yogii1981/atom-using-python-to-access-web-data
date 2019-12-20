@@ -130,3 +130,14 @@ def square(number):          #name of the function is square
     return number ** 2
 
 square(7)      # 7 is an argument  and (number) is parameter
+
+# functions with multiple parameters
+
+def maximum(value1, value2,value3):
+    """return the maxiumum value of three values."""
+    max_value = value1
+    if value2 > max_value:
+        max_value = value2
+        if value3 > max_value:
+            max_value = value3
+            return max_value
