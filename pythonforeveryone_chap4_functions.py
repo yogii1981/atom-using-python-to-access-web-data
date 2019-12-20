@@ -144,3 +144,9 @@ def maximum(value1, value2,value3):
 
 maximum(12,36,48)
 print(maximum(12,36,48))
+
+maximum("yellow","red","pink")
+
+import random
+for roll in range(10):
+    print(random.randrange(2,8), end = ' ')
