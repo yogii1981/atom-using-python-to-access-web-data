@@ -115,3 +115,17 @@ def no_side_effects(cities):
 
 locations = ["London", "Leeds", "Glasgow", "Sheffield"]
 no_side_effects(locations)
+print(locations)
+
+
+#### This changes drastically, if we increment the list by using
+# augmented assigment operator +1 =.
+
+
+
+#
+def square(number):
+    """Calculate the square of the number."""
+    return number * 2
+
+square(7)
