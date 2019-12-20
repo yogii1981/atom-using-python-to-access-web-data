@@ -125,7 +125,8 @@ print(locations)
 
 #
 def square(number):          #name of the function is square
-    """Calculate the square of the number."""
+    """Calculate the square of the number."""  #docstring which explains the p
+        # of the fucntion#
     return number * 2
 
 square(7)      # 7 is an argument  and (number) is parameter
