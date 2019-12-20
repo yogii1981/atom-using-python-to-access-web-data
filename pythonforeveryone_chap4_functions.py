@@ -94,3 +94,24 @@ def print_twice(bruce):
     print(bruce)
     print(bruce)
 # this function assigns the arguement to a parameter
+
+
+# parameters are part of the function body and arguments are passed
+# to parameters
+
+def ref_demo(x):
+    print("x=", x, " id = ", id(x))
+    x = 42
+    print("x=", x, " id = ", id(x))
+# in above example id() function is used, which takes an object as
+# a parameter. id(obj) returns the identity of the object "obj" . This
+# identity , the return value of the function, is an integer
+# which is unique and constant for this object during lifetime
+
+def no_side_effects(cities):
+     print(cities)
+     cities = cities + ["Birmingham", "Bradford"]
+     print(cities)
+
+locations = ["London", "Leeds", "Glasgow", "Sheffield"]
+no_side_effects(locations)
