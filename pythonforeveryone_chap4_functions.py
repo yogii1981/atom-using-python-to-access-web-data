@@ -86,4 +86,11 @@ def print_lyrics():
 repeat_lyrics()
 
 #parameters and arguement
-# math.sin()  anything writtten in the bracket is the arguement passed to sin
+# math.sin()  anything writtten in the bracket is the
+# arguement passed to sin
+# sin is a function
+
+def print_twice(bruce):
+    print(bruce)
+    print(bruce)
+# this function assigns the arguement to a parameter
