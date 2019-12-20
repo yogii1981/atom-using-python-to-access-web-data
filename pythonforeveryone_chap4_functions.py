@@ -124,8 +124,8 @@ print(locations)
 
 
 #
-def square(number):
+def square(number):          #name of the function is square
     """Calculate the square of the number."""
     return number * 2
 
-square(7)
+square(7)      # 7 is an argument  and (number) is parameter
