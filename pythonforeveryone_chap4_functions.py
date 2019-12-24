@@ -150,3 +150,5 @@ maximum("yellow","red","pink")
 import random
 for roll in range(10):
     print(random.randrange(2,8), end = ' ')
+
+print("test")
