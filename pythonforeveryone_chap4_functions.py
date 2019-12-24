@@ -157,5 +157,13 @@ def multiplytwo(a,b):
     multiply = a * b
     return multiply
 
+
 x = multiplytwo(77,81)
 print(x)
+
+def average1(a,b,c,d):
+    average = (a+b+c+d)/4
+    return average
+
+y = average1(8911,8711,9811,1111)
+print(y)
