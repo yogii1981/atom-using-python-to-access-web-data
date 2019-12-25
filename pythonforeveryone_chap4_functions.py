@@ -200,3 +200,20 @@ def computerpay(rate, hours):
         pay = (rate * hours)
         return pay
 computerpay(10,45)
+
+# Another approach
+
+def computepay(tmp_hours, tmp_rate):
+    """
+    Calculates the amount to pay taking into account overtime
+    Inputs: tmp_hours -- the total hours worked
+            tmp_rate -- pay rate of the employee
+    Output: amount due to employee
+    """
+    if tmp_hours <= 40.0:
+        return tmp_rate * tmp_hours                # No overtime calculation
+
+    # Since the value is returned if hours <= 40, we no longer need the
+    # else statement here.
+    overtime = tmp_hours - 40.0                # How much overtime is left
+    return (tmp_rate * 40.0) + (1.5 * tmp_rate * overtime)
