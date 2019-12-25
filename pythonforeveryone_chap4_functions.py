@@ -182,3 +182,21 @@ def jane():
 jane()
 fred()
 jane()
+
+#Exercise 6: Rewrite your pay computation with time and a half
+# for overtime and create a function "computepay" which takes
+# two paramete (hours and rate)
+# Enter hours: 45
+# Enter Rate: 10
+# pay: 475.0
+rate = input("Enter a rate for an hour:")
+hours = input("Enter number of hours worked:")
+
+def computerpay(rate, hours):
+    if hours > 40:
+        pay = (rate * 40) + ((rate * 1.5) * (hours - 40))
+        return pay
+    elif hours < 40:
+        pay = (rate * hours)
+        return pay
+computerpay(10,45)
