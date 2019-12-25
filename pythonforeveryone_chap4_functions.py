@@ -167,3 +167,18 @@ def average1(a,b,c,d):
 
 y = average1(8911,8711,9811,1111)
 print(y)
+
+# exercise 4: What is the purpose of the "def" keyword in python?
+
+
+#exercise 5: what will the following  python print out?
+
+def fred():
+    print("Zap")
+
+def jane():
+    print("ABC")
+
+jane()
+fred()
+jane()
