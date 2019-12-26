@@ -217,3 +217,32 @@ def computepay(tmp_hours, tmp_rate):
     # else statement here.
     overtime = tmp_hours - 40.0                # How much overtime is left
     return (tmp_rate * 40.0) + (1.5 * tmp_rate * overtime)
+
+# Enter score : 10.0
+# Bad score
+
+# exercise 7: Rewrite the grade program fro the previous chapter
+# using a function "computergrade" that takes a score as its
+# parameter and returns a grade as a string
+# score     grade
+#  0.9       A
+#  0.8       B
+#  0.7       C
+#  0.6       D
+#  <=0.6     F
+# Program execution:
+# Enter score : 0.95
+# A
+# Enter score : perfect
+# Bad score
+# Enter score : 10.0
+# Bad score
+# Enter score : 0.75
+# C
+# Enter score : 0.5
+# F
+
+
+def computegrade(score):
+    if score >= f0.6:
+        print()
