@@ -57,6 +57,12 @@ print('Done')
 # counting and sunning loops
 
 count = 0
-for intervar in [3, 41, 12, 9, 74, 15]:
+for intervar in [3, 41, 12, 9, 74, 15]:     # "intervar" is an iteration variable
     count = count + 1
     print('count:', count)
+
+
+total = 0
+for intervar in [3, 41, 12, 9, 74, 15]:
+    total = total + intervar
+    print('Total:', total)
