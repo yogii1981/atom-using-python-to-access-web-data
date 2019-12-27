@@ -94,3 +94,10 @@ for intervar in [3, 14, 12,9, 75,15]:
         smallest = intervar
     print("Loop:", intervar, smallest)
 print("Smallest:", smallest)
+
+def min(values):
+    smallest = None
+    for value in values:
+        if smallest is None or value < smallest:
+            smallest = value
+        return smallest
