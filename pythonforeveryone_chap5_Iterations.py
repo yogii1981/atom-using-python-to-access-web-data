@@ -27,7 +27,7 @@ while n > 0:
         the word "blastoff"
     """
 
-# example of infinite loop
+# example of infinite loop using break
 
 while True:
     line = input(' > ')
@@ -35,3 +35,14 @@ while True:
         break
         print(line)
     print('Done!')
+
+# example of infinite loop using "continue" to skip to next iteration
+
+while True:
+    line = input('> ')
+    if line[0] == '#':
+        continue
+    if line == 'done':
+        break
+    print(line)
+print('Done!')
