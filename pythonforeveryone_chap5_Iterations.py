@@ -53,3 +53,10 @@ friends = ['john', 'kelly', 'sunny'] # variable "friends" is a list1 of 3 string
 for friend in friends:       # "friend" is an iteration variable
     print('Happy New Year:', friend)
 print('Done')
+
+# counting and sunning loops
+
+count = 0
+for intervar in [3, 41, 12, 9, 74, 15]:
+    count = count + 1
+    print('count:', count)
