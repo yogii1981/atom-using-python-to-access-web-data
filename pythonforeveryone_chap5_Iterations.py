@@ -47,9 +47,9 @@ while True:
     print(line)
 print('Done!')
 
-# ddefinite loops using "for"
+# definite loops using "for"
 
-friends = ['john', 'kelly', 'sunny']
-for friend in friends:
+friends = ['john', 'kelly', 'sunny'] # variable "friends" is a list1 of 3 strings
+for friend in friends:       # "friend" is an iteration variable
     print('Happy New Year:', friend)
 print('Done')
