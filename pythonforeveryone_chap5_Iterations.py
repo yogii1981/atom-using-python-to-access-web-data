@@ -46,3 +46,10 @@ while True:
         break
     print(line)
 print('Done!')
+
+# ddefinite loops using "for"
+
+friends = ['john', 'kelly', 'sunny']
+for friend in friends:
+    print('Happy New Year:', friend)
+print('Done')
