@@ -117,24 +117,30 @@ Invalid input
 Enter a number: 7
 Enter a number: done
 """
-
+"""Approach1 """
 Number = input(Enter a number: )
 count = 0
 total = 0
+average = 0
 try:
-    score = float(Number)
+    number = float(Number)
 except ValueError:
     print('Invalid input')
     quit()
+while True:                               # Stays in loop until break
+    number = input('Enter a number: ')
+    if number == 'done':
+        break                             # Exits the while loop
 
+    number = check_for_float(input_number)
 for a number in Number:
     count = count + 1
     total = total + 1
     average = number / count
     print("Total:", total , "Count:", count, "Average: ", average)
 
-
-
+###############
+"""Approach2"
 def check_for_float(input1):
     """
     Checks if the type of "input1" is a float and returns the value if so.
@@ -170,3 +176,5 @@ if __name__ == "__main__":
     if count:
         average = total / count               # Computes the average
     print(total, count, average)
+
+    test
