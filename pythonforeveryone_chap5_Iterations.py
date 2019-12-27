@@ -178,3 +178,18 @@ if __name__ == "__main__":
     print(total, count, average)
 
     test
+
+
+numbers = []
+while True:
+    number = input("Enter number: ")
+    if number == "done":
+         break
+         try:
+            int_cast = int(number) numbers.append(int_cast)
+        except:
+            print("Invalid input")
+        count = len(numbers)
+        total = sum(numbers)
+        average = total / count
+print("Total:", total , "Count:", count, "Average: ", average)
