@@ -66,3 +66,31 @@ total = 0
 for intervar in [3, 41, 12, 9, 74, 15]:
     total = total + intervar
     print('Total:', total)
+"""
+ in the bove loop I didn't use the iteration variable.
+ Instead simple adding to the count as in the previous
+ loop.
+ """
+
+ """
+ Neither the counting nor the summing loop are useful
+ as there is built in function "len" and "sum" to
+ take care of such tasks.
+ """
+
+ """ Maximum and minimum loops """
+largest = None
+print("Before: ", largest)
+for intervar in [ 3, 41, 12, 9, 75, 15]:
+     if largest is None or intervar > largest:
+         largest = intervar
+     print('Loop:', intervar, largest)
+print('Largest:', largest)
+
+smallest = None
+print("Before:", smallest)
+for intervar in [3, 14, 12,9, 75,15]:
+    if smallest is None or intervar < smallest:
+        smallest = intervar
+    print("Loop:", intervar, smallest)
+print("Smallest:", smallest)
