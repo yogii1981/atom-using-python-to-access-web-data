@@ -162,3 +162,14 @@ print(line.startswith('h'))
 line = "Have a good day"
 line.lower()
 print(line.lower().startswith('h'))  #lower case "h" startswith "have a good day"
+
+
+"""
+Exercise 4: There is a string method called count.
+Use it to write an invocation that counts the number of
+times the letter "a" occues in "banana".
+"""
+
+word = "banana"
+substring = "a"   #define a substring prior to search
+print(word.count(substring,0,6))  # substring, starting point for search , end point of search
