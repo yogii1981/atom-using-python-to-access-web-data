@@ -73,6 +73,13 @@ fruit = 'banana'
 print(fruit[:])
 
 
+#######################################
+
+greeting = 'Hello , test'
+greeting[0] = 'J'   # Strings are immutable
+
+
+
 
 
 
