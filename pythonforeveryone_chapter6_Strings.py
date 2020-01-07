@@ -58,6 +58,11 @@ for char in fruit:
     print(char)
 
 
+""" String Slices """
+s = "Monthy python"
+print (s[0:3])
+
+
 
 
 
