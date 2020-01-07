@@ -65,6 +65,14 @@ print(s[:9]) ### from beggining till 8th character
 print(s[3:]) ### from 3rd till the end
 
 
+""" Exercise 2: Given that fruit is a string, What
+does fruit[:] mean ?
+"""
+
+fruit = 'banana'
+print(fruit[:])
+
+
 
 
 
