@@ -42,13 +42,13 @@ Execrise 6.1 : write a while loop that starts at the last character
 in the string and works its ways backward to first character in th string, printing
 each letter on a separate line , except backwards.
 """
-fruit = 'banana'
-index = 0
-while index < len(fruit):
-    letter = fruit[index - 1]
-    index = index - 1
-    print(letter)
 
+fruit = 'banana'
+index = len(fruit)-1                    # Convert to index
+while index >= 0:
+    letter = fruit[index]
+    print(letter)
+    index -= 1                          # Update index
 
 
 
