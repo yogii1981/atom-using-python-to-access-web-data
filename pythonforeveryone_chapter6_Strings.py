@@ -131,3 +131,22 @@ word = 'banana'
 word.upper()
 new_word = word.upper()
 print(new_word)
+
+
+
+word = 'banana'
+index = word.find('a')
+print(index)
+
+
+word = 'banana'
+index1 = word.find('na')
+print(index1)
+
+word = 'banana'
+index2 = word.find('na', 3)
+print(index2)
+
+line = '   here we go '
+line.strip()
+print(line)
