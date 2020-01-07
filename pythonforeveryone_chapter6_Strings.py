@@ -102,3 +102,26 @@ for letter in word:
     if letter == 'a':
         count = count + 1
 print(count)
+
+
+"""
+Exercise 3:  this code in a function named count, and generalize
+it so that it accepts the string and letter as arguments
+"""
+
+'a' in 'banana'
+
+"""String comparison"""
+word = 'banana'
+if word == 'banana':
+    print('your word,' + word + ', 'comes before banana.')
+elif word > 'banana':
+    print('your word,' + word + ', come after banana')
+else:
+    print('All right, bananas.')
+
+""" String methods """
+stuff = "hello world"
+type(stuff)
+
+dir(stuff)
