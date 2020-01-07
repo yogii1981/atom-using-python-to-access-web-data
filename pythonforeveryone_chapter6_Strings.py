@@ -73,23 +73,6 @@ fruit = 'banana'
 print(fruit[:])
 
 
-#######################################
-
-greeting = 'Hello , test'
-greeting[0] = 'J'   # Strings are immutable
-
-greeting = 'Hello , test'
-new_greeting = "j" + greeting[1:]
-print(new_greeting)
-
-
-
-
-
-
-
-
-
 ######## Another way of transveral loop using for loop ###
 fruit = 'banana'
 for char in fruit:
@@ -101,3 +84,13 @@ String Slices
 
 s = 'Monty Python'
 print(s[0:4])
+
+
+#######################################
+
+greeting = 'Hello , test'
+greeting[0] = 'J'   # Strings are immutable
+
+greeting = 'Hello , test'
+new_greeting = "j" + greeting[1:]
+print(new_greeting)
