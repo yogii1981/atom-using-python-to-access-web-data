@@ -157,3 +157,8 @@ print(line)
 line = "Have a good day"
 line.startswith('h')
 print(line.startswith('h'))
+
+
+line = "Have a good day"
+line.lower()
+print(line.lower().startswith('h'))  #lower case "h" startswith "have a good day"
