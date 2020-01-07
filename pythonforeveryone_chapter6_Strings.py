@@ -94,3 +94,11 @@ greeting[0] = 'J'   # Strings are immutable
 greeting = 'Hello , test'
 new_greeting = "j" + greeting[1:]
 print(new_greeting)
+
+""" Looping and counting"""
+word = 'banana'
+count = 0
+for letter in word:
+    if letter == 'a':
+        count = count + 1
+print(count)
