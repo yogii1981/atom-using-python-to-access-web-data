@@ -61,8 +61,8 @@ for char in fruit:
 """ String Slices """
 s = "Monthy python"
 print (s[0:3])
-print(s[:9])
-print(s[3:])
+print(s[:9]) ### from beggining till 8th character
+print(s[3:]) ### from 3rd till the end
 
 
 
