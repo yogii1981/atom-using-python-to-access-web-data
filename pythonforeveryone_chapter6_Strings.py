@@ -41,7 +41,29 @@ string , the condition is false
 Execrise 6.1 : write a while loop that starts at the last character
 in the string and works its ways backward to first character in th string, printing
 each letter on a separate line , except backwards.
+"""
+fruit = 'banana'
+index = 0
+while index < len(fruit):
+    letter = fruit[index - 1]
+    index = index - 1
+    print(letter)
 
+
+
+
+
+
+
+
+######## Another way of transveral loop using for loop ###
 fruit = 'banana'
 for char in fruit:
     print(char)
+
+"""
+String Slices
+"""
+
+s = 'Monty Python'
+print(s[0:4])
