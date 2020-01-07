@@ -150,3 +150,10 @@ print(index2)
 line = '   here we go '
 line.strip()  # remove space, tabs or newsline
 print(line)
+
+
+""" You will see "startswith" requires case to match """
+
+line = "Have a good day"
+line.startswith('h')
+print(line.startswith('h'))
