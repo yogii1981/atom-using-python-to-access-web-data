@@ -148,5 +148,5 @@ index2 = word.find('na', 3)
 print(index2)
 
 line = '   here we go '
-line.strip()
+line.strip()  # remove space, tabs or newsline
 print(line)
