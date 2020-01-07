@@ -125,3 +125,9 @@ stuff = "hello world"
 type(stuff)
 
 dir(stuff)
+
+
+word = 'banana'
+word.upper()
+new_word = word.upper()
+print(new_word)
