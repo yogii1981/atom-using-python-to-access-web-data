@@ -52,6 +52,13 @@ while index >= 0:
 
 
 
+##########################################################
+fruit = 'banana'
+for char in fruit:
+    print(char)
+
+
+
 
 
 
