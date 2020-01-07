@@ -78,7 +78,9 @@ print(fruit[:])
 greeting = 'Hello , test'
 greeting[0] = 'J'   # Strings are immutable
 
-
+greeting = 'Hello , test'
+new_greeting = "j" + greeting[1:]
+print(new_greeting)
 
 
 
