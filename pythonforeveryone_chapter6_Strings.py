@@ -200,3 +200,9 @@ print(host)
 camels = 42
 '%d' % camels
 print(camels)
+print(type(camels))
+
+
+camels = 42
+test = 'I have spotted %d camels.' %camels  # replace the %d with value of camels
+print(test)
