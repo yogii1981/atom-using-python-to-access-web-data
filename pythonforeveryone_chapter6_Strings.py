@@ -173,3 +173,30 @@ times the letter "a" occues in "banana".
 word = "banana"
 substring = "a"   #define a substring prior to search
 print(word.count(substring,0,6))  # substring, starting point for search , end point of search
+
+
+""" Parsing Strings"""
+
+data = 'From stephen.marquand@uct.ac.za Sat Jan 9 09:45:14 2019'
+atpos = data.find('@')   #find the location of @ sign
+print (atpos)
+
+sppos = data.find( ' ', atpos)   # find the location of fisr space after @sign
+print(sppos)
+
+host = data[atpos+1:sppos]    #display from the fist text after @ till the space sign appearance
+print(host)
+
+
+
+""" Format operator"""
+#Format operator, % allows us to construct
+# strings, replacing part of tstrings with data stored
+# in variables
+# % act as modulus when appolied to integer and act as
+# format when applied to Strings
+
+
+camels = 42
+'%d' % camels
+print(camels)
