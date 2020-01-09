@@ -206,3 +206,8 @@ print(type(camels))
 camels = 42
 test = 'I have spotted %d camels.' %camels  # replace the %d with value of camels
 print(test)
+
+""" %d is used to format integer and %g is used to format a floating point number """
+
+sentence = 'In %d years, I have spotted %g %s.' % (3, 0.1,'camels')
+print(sentence)
