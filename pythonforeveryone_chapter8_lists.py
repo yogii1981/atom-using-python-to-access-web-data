@@ -18,4 +18,10 @@ numbers[1] = 5
 print(numbers)
 
 cheeses = ['Cheddar','Edam','Gouda']
-'Edam' in cheeses
+print('Edam' in cheeses)
+print('Adam' in cheeses)
+
+numbers = [17,21,223,34111,2,121]
+for number in range(len(numbers)):
+    numbers[number] = numbers[number] * 2
+print(numbers)
