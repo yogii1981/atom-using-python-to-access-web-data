@@ -33,3 +33,7 @@ numbers = [17,21,223,34111,2,121]
 for number in range(len(numbers)):
     numbers[number] = numbers[number] * 2
 print(numbers)
+
+empty = []
+for x in empty:
+    print('This never happens')
