@@ -211,3 +211,6 @@ print(test)
 
 sentence = 'In %d years, I have spotted %g %s.' % (3, 0.1,'camels')
 print(sentence)
+
+a = ' %d %d %d % (1,2)'
+print(a)
