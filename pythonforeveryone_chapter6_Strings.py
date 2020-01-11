@@ -214,3 +214,14 @@ print(sentence)
 
 a = ' %d %d %d % (1,2)'
 print(a)
+
+"""Debugging"""
+
+while True:
+    line = input('>')
+    if line[0] == '#':
+        continue
+    if line == 'done':
+        break
+    print(line)
+print('Done!')
