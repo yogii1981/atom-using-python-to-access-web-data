@@ -8,3 +8,14 @@ print(a1[-1][-1]) #show the last element present within the last element of the 
 
 cheeses = ['Cheddar','Edam','Gouda']
 print(cheeses[-1])
+
+"""Lists are mutable"""
+cheeses = ['Cheddar','Edam','Gouda']
+print(cheeses[0])
+
+numbers = [17,123]
+numbers[1] = 5
+print(numbers)
+
+cheeses = ['Cheddar','Edam','Gouda']
+'Edam' in cheeses
