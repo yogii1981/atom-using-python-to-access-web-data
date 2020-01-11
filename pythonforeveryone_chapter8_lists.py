@@ -21,6 +21,14 @@ cheeses = ['Cheddar','Edam','Gouda']
 print('Edam' in cheeses)
 print('Adam' in cheeses)
 
+
+"""
+This loop transverses the list and
+updates each element. 'len' returns  the number
+of elements in the list. range returns a list of indices
+from 0 to n-1,where "n" in the length of list
+"""
+
 numbers = [17,21,223,34111,2,121]
 for number in range(len(numbers)):
     numbers[number] = numbers[number] * 2
