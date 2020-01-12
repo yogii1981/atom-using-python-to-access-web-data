@@ -139,3 +139,10 @@ print(t)
 s = 'spam-spam-spam'
 delimiter = "-"
 print(s.split(delimiter))
+
+# Join the inverse of the split
+
+t = ['I', 'am', 'a', 'boy']
+delimiter = ' '
+delimiter.join(t)
+print(delimiter.join(t))
