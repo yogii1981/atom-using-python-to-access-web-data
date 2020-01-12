@@ -131,3 +131,11 @@ print(t)
 s = 'pining for the fjords'
 t = s.split()
 print(t)
+
+# once you have used the split function,
+# you can use the delimiter to use a
+# particular word as a boundary
+
+s = 'spam-spam-spam'
+delimiter = "-"
+print(s.split(delimiter))
