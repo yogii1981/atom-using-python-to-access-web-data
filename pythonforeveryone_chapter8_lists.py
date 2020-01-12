@@ -161,3 +161,8 @@ for line in fhand:
 
 x = " this is a champion of the east"
 print(x.strip())
+
+""" Objects and values"""
+a = 'banana'
+b = 'banana'
+print(a is b)
