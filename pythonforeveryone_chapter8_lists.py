@@ -191,3 +191,14 @@ print(b)
 print(a)
 """This is error prone since chaning the element of b also changed
 the element of a"""
+
+""" List Arguments"""
+
+def delete_head(t):
+    del t[0]
+#defining the function
+# delete_head which removes the first elements
+
+letters = ['a', 'b', 'c']
+delete_head(letters)
+print(letters)
