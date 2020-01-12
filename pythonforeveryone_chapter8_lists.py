@@ -146,3 +146,18 @@ t = ['I', 'am', 'a', 'boy']
 delimiter = ' '
 delimiter.join(t)
 print(delimiter.join(t))
+
+"""Parsing lines"""
+"""
+we can use a split a function to look for a line where
+line starts from "the" and then print out the third word
+in the line"""
+fhand = open('sample1.txt')
+for line in fhand:
+    line = line.rstrip()
+    if not line.startswith('The'):continue
+    words = line.split()
+    print(words[2])
+
+x = " this is a champion of the east"
+print(x.strip())
