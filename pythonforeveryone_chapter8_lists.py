@@ -67,3 +67,13 @@ t2 = ['d','e','f']
 t1.extend(t2) # extend takes a list as an arguement and append of the elements
 print(t1)
 """ only t1 is updated not t2 """
+
+""" Sort operations """
+t = ['d','s', 'a', 'b', 'c','i']
+print(t.sort()) # list is modified but print(t.sort() will be none)
+print(t)
+
+"""deleting elements"""
+t = ['a','b','c','d']
+x = t.pop(2)
+print(t)
