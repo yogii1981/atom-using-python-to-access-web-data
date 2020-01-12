@@ -164,5 +164,12 @@ print(x.strip())
 
 """ Objects and values"""
 a = 'banana'
-b = 'banana'
+b = 'banana' # banana is object and system only created one object
+print(a is b)
+
+
+# system creates two list even though look similar and they are different even
+# though they look similar
+a = [1,2,3]
+b = [1,2,3]
 print(a is b)
