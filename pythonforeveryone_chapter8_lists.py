@@ -77,3 +77,22 @@ print(t)
 t = ['a','b','c','d']
 x = t.pop(2)
 print(t)
+
+""" if user don't the remove value but know the index"""
+t = ['a', 'b', 'c']
+del t[1]
+print(t)
+
+""" if user knows the value to be remove then use remove function"""
+t = ['a','b','c']
+t.remove('b')
+print(t)
+
+
+""" Lists and Functions"""
+nums = [3, 41, 12, 9, 74, 15]
+print(len(nums))
+print(max(nums))
+print(min(nums))
+print(sum(nums))
+print(sum(nums)/len(nums))
