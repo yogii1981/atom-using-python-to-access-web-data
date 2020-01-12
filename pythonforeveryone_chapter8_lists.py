@@ -122,3 +122,12 @@ average =sum(numlist) / len(numlist)
 print('Average:', average)
 
 """Lists and Strings"""
+s = 'spam'
+t = list(s) # to covert from string to list of characters
+print(t)
+
+
+# to convert a string into a word
+s = 'pining for the fjords'
+t = s.split()
+print(t)
