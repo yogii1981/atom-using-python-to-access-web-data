@@ -61,3 +61,9 @@ print(t[:])
 t = ['a','b','c','d','e','f','g']
 t.append('gg') # appending the list t with "gg" value adding extra element
 print(t)
+
+t1 = ['a','b','c']
+t2 = ['d','e','f']
+t1.extend(t2) # extend takes a list as an arguement and append of the elements
+print(t1)
+""" only t1 is updated not t2 """
