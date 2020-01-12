@@ -173,3 +173,15 @@ print(a is b)
 a = [1,2,3]
 b = [1,2,3]
 print(a is b)
+
+""" IMPORTANT NOTE: a and b are equivalent because
+they have idential elements but no same elements"""
+
+a = [1,2,3]
+b = [1,2,3]
+print( a == b)
+
+""" How to assign same elemenets to different variable"""
+a = [1, 2, 3]
+b = a
+print(b)
