@@ -44,5 +44,13 @@ b = [4,5,6]
 c = a + b
 print(c)
 
-a =[0] * 4
+a =[0] * 4 # operator repeat a list a given number of times
 print(a)
+
+b = [1,2,3] * 3
+print(b)
+
+
+""" Slice operators also works on list """
+t = ['a','b','c','d']
+print(t[0:2])
