@@ -181,7 +181,13 @@ a = [1,2,3]
 b = [1,2,3]
 print( a == b)
 
-""" How to assign same elemenets to different variable"""
+""" How to assign same elemenets to different variable - ALIASING"""
 a = [1, 2, 3]
 b = a
 print(b)
+
+b[0] = 17
+print(b)
+print(a)
+"""This is error prone since chaning the element of b also changed
+the element of a"""
