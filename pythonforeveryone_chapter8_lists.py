@@ -110,3 +110,15 @@ while(True):
     count = count + 1
     average = total / count
 print('Average:', average)
+
+"""Use built-in functions to compute sum and count"""
+numlist = list()
+while(True):
+    inp = input('Enter a number:')
+    if input == 'done': break
+    value = float(inp)
+    numlist.append(value)
+average =sum(numlist) / len(numlist)
+print('Average:', average)
+
+"""Lists and Strings"""
