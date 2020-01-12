@@ -54,3 +54,10 @@ print(b)
 """ Slice operators also works on list """
 t = ['a','b','c','d']
 print(t[0:2])
+
+print(t[:])
+
+
+t = ['a','b','c','d','e','f','g']
+t.append('gg') # appending the list t with "gg" value adding extra element
+print(t)
