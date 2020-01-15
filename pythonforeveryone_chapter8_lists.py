@@ -219,3 +219,32 @@ def tail(t):
 letters = ['a', 'c','f','g','t']
 rest = tail(letters)
 print(rest)
+
+"""
+Write a function "chop" that
+takes a list and modifies it,
+removing the first and last elemenets
+and returns "None"
+
+Then write a "middle" function that takes a list and returns a new
+list that contains all but first and last elements
+"""
+
+def chop(list):
+    """ Take a list"""
+    del list[0] #delete first element from list
+    del list[-1]    #delete last element from List
+
+def middle(list):
+    new = list[1:]
+    del new[-1]
+    return new
+
+
+letters = ['a', 'c','f','g','t']
+rest = chop(letters)
+print(letters)
+print(rest)
+
+test = middle(letters)
+print(test)
