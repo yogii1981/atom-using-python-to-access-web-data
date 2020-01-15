@@ -212,3 +212,10 @@ print(t2)
 
 def bad_delete_head(t):
     t=t[1:] #this function doesn't delete the head of a list
+
+def tail(t):
+    return t[1:] # function returns all but first element
+
+letters = ['a', 'c','f','g','t']
+rest = tail(letters)
+print(rest)
