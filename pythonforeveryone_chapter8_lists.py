@@ -264,3 +264,31 @@ for line in fhand:
             continue                    # Discards duplicates
         my_list.append(word)            # Updates the list
 print(sorted(my_list))                  # Alphabetical order
+
+
+
+""" Exercise 5 - chapter 8
+write a program to read the mail box data and when you
+find that starts with "From", you will split the line into words using then
+split function. We are interested in who sent the message, which
+is the second word on the from line.
+
+
+From Stepher.marquard@uct-ac.za Sat Jan 5 09:14:16 2008
+
+You will parse the fom line and print out the the second word for from line,
+then you will also count the number of from lines and print out a count at the
+end.
+"""
+
+
+
+openbook = open('mbox.txt')
+count = 0
+for line in openbook:
+    words = line.split()
+    if len(words) < 3 or words[0] != 'From':
+        continue
+    print(words[1])
+    count += 1
+print('There were %d lines in the file with From as the first word' % count)
