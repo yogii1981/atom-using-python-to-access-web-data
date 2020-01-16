@@ -248,3 +248,21 @@ print(rest)
 
 test = middle(letters)
 print(test)
+
+""" Write a program to open a file
+"remoeo.txt" abd read it line by line.
+For each line , split the line into a list
+of words  using split function."""
+
+Juliet = open('romeo.txt')
+for line in Juliet:
+    line = line.rstrip()
+    words = line.split()
+    print(words)
+
+fhand = open('sample1.txt')
+for line in fhand:
+    line = line.rstrip()
+    if not line.startswith('The'):continue
+    words = line.split()
+    print(words[2])
