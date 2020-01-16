@@ -254,15 +254,13 @@ print(test)
 For each line , split the line into a list
 of words  using split function."""
 
-Juliet = open('romeo.txt')
-for line in Juliet:
-    line = line.rstrip()
-    words = line.split()
-    print(words)
-
-fhand = open('sample1.txt')
+my_list = []
+fhand = open('romeo.txt')
 for line in fhand:
-    line = line.rstrip()
-    if not line.startswith('The'):continue
-    words = line.split()
-    print(words[2])
+    words = line.split()                # Splits line into array of words
+    print(words)
+    for word in words:
+        if word in my_list:
+            continue                    # Discards duplicates
+        my_list.append(word)            # Updates the list
+print(sorted(my_list))                  # Alphabetical order
