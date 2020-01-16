@@ -78,7 +78,7 @@ t = ['a','b','c','d']
 x = t.pop(2)
 print(t)
 
-""" if user don't the remove value but know the index"""
+""" if user don't want to the remove value but know the index"""
 t = ['a', 'b', 'c']
 del t[1]
 print(t)
