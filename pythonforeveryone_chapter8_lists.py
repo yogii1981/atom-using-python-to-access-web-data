@@ -282,7 +282,6 @@ end.
 """
 
 
-
 openbook = open('mbox.txt')
 count = 0
 for line in openbook:
@@ -292,3 +291,40 @@ for line in openbook:
     print(words[1])
     count += 1
 print('There were %d lines in the file with From as the first word' % count)
+
+
+
+"""
+Exercise 6 Chapter 8
+Rewrite the program that prompts the user for a list of
+numbers and prints out the maximum and minimum of the numbers at the extend
+when the user enters "done". Write the program
+to store and use the max() and min() functions to compute the
+max and min of after the loop completes
+Enter a number: 6
+Enter a number: 2
+Enter a number: 9
+Enter a number: 3
+Enter a number: 5
+Enter a number: done
+Maximum: 9.0
+Minimum: 2.0
+"""
+
+my_list = []
+while True:
+    number = 0.0
+    input_number = input("Enter a number:")
+    if input_number == 'done':
+        break
+
+    try:
+        number = float(input_number)
+    except Valueerror:
+        print('Invalid Input')
+        quit()
+
+    my_list.append(input_number)
+
+print('Maximum', max(my_list))
+print('Minimum', min(my_list))
