@@ -10,3 +10,5 @@ print(eng2sp)
 
 eng2sp['two'] = "rino"
 print(eng2sp)
+print(eng2sp['One'])
+print(len(eng2sp))
